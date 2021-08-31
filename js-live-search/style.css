@@ -1,0 +1,42 @@
+body {
+   font-family: Work Sans;
+}
+
+.hide {
+   display: none;
+}
+
+.wrap {
+   margin: auto;
+   background: #ccc;
+   width: 250px;
+   min-height: 470px;
+}
+
+.h1 {
+   text-transform: uppercase;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   padding-top: 20px;
+}
+
+.input {
+   padding: 10px;
+   background: rgb(236, 234, 234);
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   width: 80%;
+   margin-left: 20px;
+   outline: none;
+   box-sizing: border-box;
+}
+
+.ul {
+   padding-bottom: 50px;
+}
+
+.ul li {
+   font-size: 20px;
+   line-height: 1.4;
+   font-weight: regular;
+}

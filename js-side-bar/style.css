@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,700);
+
+body {
+   font: 18px/1.3 "Raleway", "Open Sans", sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+}
+
+.sidebar {
+   width: 60px;
+   height: 100vh;
+   background: #191b22;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   transition: 0.2s all;
+}
+
+.sidebar__icons {
+   cursor: pointer;
+}
+
+.change-icon > .fa-bars {
+   visibility: hidden;
+}
+
+.change-icon > .fa-times {
+   visibility: visible;
+}
+
+.sidebar:hover {
+}
+
+.fas {
+   font-size: 50px;
+   opacity: 0.9;
+   cursor: pointer;
+   padding: 0px 0px 0px 6px;
+}
+
+.fa-bars {
+   visibility: visible;
+   position: absolute;
+}
+
+.fa-times {
+   visibility: hidden;
+   position: absolute;
+   left: 3px;
+}
+
+.main {
+   position: relative;
+   width: 100%;
+}
+
+.main_bg {
+   background: #444;
+}
+
+.main__content {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background: rgb(163, 177, 210);
+   padding: 100px;
+   transition: 0.3s all;
+}
+
+.main__content_bg {
+   background: rgb(163, 177, 210);
+   transform: translate(20%, 5%) scale(0.9);
+   max-height: 70vh;
+   max-width: 80vw;
+   overflow: auto;
+}
